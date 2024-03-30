@@ -7,6 +7,8 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Email {
+
+	//Hello
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
